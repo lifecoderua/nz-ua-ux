@@ -1,0 +1,12 @@
+{
+  "name": "nz-ua-ux",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:extension": "web-ext build"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  }
+}

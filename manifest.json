@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Nz.ua UX",
+    "version": "0.1.0",
+    "description": "Кращий інтерфейс для порталу Nz.ua.",
+    "icons": {
+      "48": "icons/nz-ua-ux-48.jpeg"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://nz.ua/*"],
+        "js": ["dist/nz-ua-ux.es.js"]
+      }
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "nz.ua.ux@lifecoderua"
+      }
+    }
+  }
